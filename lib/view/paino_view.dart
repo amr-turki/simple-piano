@@ -17,6 +17,19 @@ class PainoView extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      appBar: AppBar(
+        backgroundColor: Colors.blueGrey,
+        centerTitle: true,
+        elevation: 0,
+        title: Text(
+          'Simple Paino',
+          style: TextStyle(
+            fontSize: 22,
+            fontWeight: FontWeight.bold,
+            color: Colors.white,
+          ),
+        ),
+      ),
       body: Column(children: models.map((e) => Tune(model: e)).toList()),
     );
   }
