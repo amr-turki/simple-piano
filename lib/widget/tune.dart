@@ -1,14 +1,18 @@
 import 'package:flutter/material.dart';
+import 'package:simple_paino/model/paino_model.dart';
 
 class Tune extends StatelessWidget {
-  const Tune({super.key,required this.color});
+  const Tune({super.key, required this.model});
 
-  final Color color;
+  final PainoModel model;
   @override
   Widget build(BuildContext context) {
     return Expanded(
-      child: Container(
-        color:color,
+      child: GestureDetector(
+        onTap: () {
+          model.PlaySound();
+        },
+        child: Container(color: model.color),
       ),
     );
   }
