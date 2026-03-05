@@ -1,16 +1,25 @@
-# simple_paino
+# 🎹 Simple Piano
 
-A new Flutter project.
+A simple Flutter app that plays musical notes when you tap on colored bars.
 
-## Getting Started
+## ✨ Features
+* **7 Musical Notes:** Each color plays a different sound.
+* **Responsive Design:** Works on all screen sizes.
+* **Clean Code:** Easy to understand and modify.
 
-This project is a starting point for a Flutter application.
+## 🛠️ Built With
+* **Flutter** - UI Framework.
+* **Audioplayers** - To play the sound files.
 
-A few resources to get you started if this is your first Flutter project:
+## 📂 Folder Structure
+* `lib/view/`: The main screen.
+* `lib/model/`: The data for colors and sounds.
+* `lib/widget/`: The design for each piano key.
+* `assets/sounds/`: Where the `.wav` files are stored.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+## 🚀 How to Run
+1. Download the code.
+2. Run `flutter pub get` in your terminal.
+3. Run `flutter run` to start the app.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+---
